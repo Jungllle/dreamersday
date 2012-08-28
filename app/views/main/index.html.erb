@@ -1,0 +1,120 @@
+<!--Home-->
+<div id="home" class="content">
+  <div id="letter-container1" class="letter-container1">
+    <h2>
+      <a href="#">Dreamers' Day <br />#2 2012/5/11 Fri</a>
+    </h2>
+    <h3>
+      <a href="http://ppt.cc/JREL" target="_blank">報名網址</a>
+    </h3>
+  </div>
+</div>	
+<!--/Home-->
+
+<!-- News -->
+<div id="news" class="panel">
+  <div class="content">
+    <div id="letter-container" class="letter-container">
+      <h2>
+        <a href="#news">News</a>
+      </h2>
+    </div>
+    <p>Dreamers' Day #2   do & dream </p>
+    <p>活動流程<br/>18:30~19:00 報到、入場<br/>19:00~19:40 開場、那些創業教我的事<br/>19:40~20:30 團隊產品Demo<br/>20:30~21:00 idea 分享<br/>21:00~21:30 自由活動</p>
+  </div>
+</div>
+<!-- /News -->
+
+<!-- About -->
+<div id="about" class="panel">
+  <div class="content">
+    <div id="letter-container" class="letter-container">
+      <h2>
+        <a href="#about">About</a>
+      </h2>
+    </div>
+    <p>Dreamers' Day 起源於11年11月，由台大學生自發性舉辦的網路創業社群，每半年在校內舉辦一次大型聚會。目的帶起學生創業風氣，增家國家競爭力。</p>
+    <p>參與成員多為充滿熱誠、理想的台大學生，努力讓把自己的想法化為能夠創造價值的產品。因為我們認為肩上有擔子，必須扛起這份責任，對這社會、成長的環境，將夢想、理想實現。</p>
+  </div>
+</div>
+<!-- /About -->
+
+<!-- History -->
+<div id="history" class="panel">
+  <div class="content">
+    <div id="letter-container" class="letter-container">
+      <h2><a href="#history">History</a></h2>
+    </div>
+    <p>Dreamers' Day #1 夢想的起點</p>
+    <p>第一屆的活動於 2011年12月19號舉行，當天現場來了近40位的台大同學，以及若干位畢業已小有成就的學長們。活動進行很順利， 7 個團隊分別上台 Demo 自己的產品，分享自己的經驗。在 idea 分享上也促成 Chirpy 臺大活動廣場的成立。<br /><a href="http://ibelieveicaner.blogspot.com/2011/12/blog-post_17.html" target="_blank">當日更詳細內容請點此</a></p>
+    <p>Dreamers' Day #2 Do & Dream</p>
+    <p>夢想的起點過後，你做了多少？<br />在路途上的，我們繼續勇敢向前;<br/>
+    躊躇不前的，鼓起勇氣做出決定。<br /><a href="http://ppt.cc/JREL" target="_blank">報名網址</a></p>
+  </div>
+</div>
+<!-- /History-->
+
+<!-- photo -->
+<div id="photo" class="panel">
+  <div class="content">
+    <div id="letter-container" class="letter-container">
+      <h2><a href="#photo">Photo</a></h2>
+    </div>
+    <p>小聚:</p>
+    <ul id="works">
+      <li></li>
+      <li><%= image_tag("g1.png", :width => 250) %></li>
+      <li><%= image_tag("g2.png", :width => 250) %></li>
+    </ul>
+    <p>#1</p>
+    <ul id="works">
+      <li><%= image_tag("1-1.png", :width => 250) %></li>
+      <li><%= image_tag("1-2.png", :width => 250) %></li>
+      <li><%= image_tag("1-3.png", :width => 250) %></li>
+      <li><%= image_tag("1-4.png", :width => 250) %></li>
+      <li><%= image_tag("1-5.png", :width => 250) %></li>
+      <li><%= image_tag("1-6.png", :width => 250) %></li>
+    </ul>
+    <p>#2</p>
+    <ul id="works">
+      <li><%= image_tag("dd2poster.png", :width => 250) %></li>
+    </ul>
+  </div>
+</div>
+<!-- /photo -->
+
+<!-- message -->
+<div id="message" class="panel">
+  <div class="content">
+    <div id="letter-container" class="letter-container">
+      <h2><a href="#message">Message</a></h2>
+    </div>
+    <fb:comments href="http://myweb.ncku.edu.tw/~h34981098/dreamersday/index.html" num_posts="2" width="470" colorscheme="dark"></fb:comments>
+  </div>
+</div>
+<!-- /message -->
+
+<!-- Header with Navigation -->
+<div id="header">
+  <h1><a href="#home">Dreamers' Day</a></h1>
+  <h2><a href="http://myweb.ncku.edu.tw/~h34981098/GaryLai.CH/" target="_blank">Gary Lai©</a></h2>
+  <ul id="navigation">
+    <li><a id="link-news" href="#news">News</a></li>
+    <li><a id="link-about" href="#about">About</a></li>
+    <li><a id="link-history" href="#history">History</a></li>
+    <li><a id="link-photo" href="#photo">Photo</a></li>
+    <li><a id="link-message" href="#message">Message</a></li>
+  </ul>
+  <!-- Demo Nav -->
+</div>
+  <script type="text/javascript">
+    $(function() {
+        $("#letter-container h2 a").lettering();
+        });
+$(function() {
+    $("#letter-container1 h2 a").lettering();
+    });
+$(function() {
+    $("#letter-container1 h3 a").lettering();
+    });
+  </script>
