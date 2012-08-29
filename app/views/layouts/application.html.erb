@@ -6,10 +6,23 @@
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
+	<meta property="og:title" content="dreamersday" />
+	<meta property="og:type" content="school" />
+	<meta property="og:url" content="http://dreamersday.herokuapp.com/" />
+	<meta property="og:image" content="http://myweb.ncku.edu.tw/~h34981098/dreamersday/images/dd2poster.jpg" />
+	<meta property="og:site_name" content="dreamersday" />
+	<meta property="fb:admins" content="100003544640331" />
 </head>
 <body>
-
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=219280174846988";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <%= yield %>
 
 </body>

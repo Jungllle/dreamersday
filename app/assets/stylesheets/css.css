@@ -1,10 +1,11 @@
 @import url('reset.css');
 @import url('style.css');
+@import url(http://fonts.googleapis.com/css?family=Electrolize);
 html, body {
 	height:100%;
 }
 body {
-	font-family: 'Electrolize', Arial, sans-serif;
+	font-family: 'Electrolize', sans-serif;
 	font-weight: 400;
 	font-size: 15px;
 	color: #fff;
