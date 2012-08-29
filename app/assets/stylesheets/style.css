@@ -384,11 +384,11 @@
 	font-size: 24px;
 	display: block;
 	padding-bottom: 30px;
-	-webkit-mask: url(../images/mask1.png) repeat;
-	-o-mask: url(../images/mask1.png) repeat;
-	-moz-mask: url(../images/mask1.png) repeat;
-	-ms-mask: url(../images/mask1.png) repeat;
-	mask: url(../images/mask1.png) repeat;
+	-webkit-mask: url(mask1.png) repeat;
+	-o-mask: url(mask1.png) repeat;
+	-moz-mask: url(mask1.png) repeat;
+	-ms-mask: url(mask1.png) repeat;
+	mask: url(mask1.png) repeat;
 }
 .letter-container1 h3 a span {
 	color: #fff;
