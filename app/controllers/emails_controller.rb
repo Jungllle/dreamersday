@@ -47,7 +47,7 @@ class EmailsController < ApplicationController
         format.html { redirect_to :root, notice: 'Email was successfully saved.' }
         format.json { render json: @email, status: :created, location: @email }
       else
-        format.html { render action: "new" }
+        format.html { redirect_to :root, notice: "Email can't be blank."  }
         format.json { render json: @email.errors, status: :unprocessable_entity }
       end
     end
@@ -67,7 +67,7 @@ class EmailsController < ApplicationController
         format.json { render json: @email.errors, status: :unprocessable_entity }
       end
     end
-  end
+  end 
 
   # DELETE /emails/1
   # DELETE /emails/1.json
