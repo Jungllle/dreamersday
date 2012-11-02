@@ -1,32 +1,32 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Dreamersday</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
-	<meta property="og:title" content="dreamersday" />
-  <meta property="og:description" content"Dreamers' Day 起源於11年11月，由台大學生自發性舉辦的網路創業社群，每半年在校內舉辦一次大型聚會。目的帶起學生創業風氣，增家國家競爭力。
-參與成員多為充滿熱誠、理想的台大學生，努力讓把自己的想法化為能夠創造價值的產品。因為我們認為肩上有擔子，必須扛起這份責任，對這社會、成長的環境，將夢想、理想實現。" >
-	<meta property="og:type" content="school" />
-	<meta property="og:url" content="http://www.dreamersday.tw" />
-	<meta property="og:image" content="http://www.dreamersday.tw/assets/dd2poster-9aac962f42d33b4d4cf6b4336c755426.png" />
-	<meta property="og:site_name" content="dreamersday" />
-  <meta property="fb:admins" content="100003544640331" />
-  <meta name="google-site-verification" content="J-rU6yTuArS9_3GZfXYy4buBeA8Lg_SoC5yHL2QRpkk" />
-</head>
-<body>
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=219280174846988";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-<%= yield %>
+  <head>
+    <title>Dreamersday</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+    <link href='http://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Terminal+Dosis|Niconne' rel='stylesheet' type='text/css' />
+    <meta property="og:title" content="dreamersday" />
+    <meta property="og:description" content"Dreamers' Day 起源於11年11月，由台大學生自發性舉辦的網路創業社群，每半年在校內舉辦一次大型聚會。目的帶起學生創業風氣，增家國家競爭力。
+    參與成員多為充滿熱誠、理想的台大學生，努力讓把自己的想法化為能夠創造價值的產品。因為我們認為肩上有擔子，必須扛起這份責任，對這社會、成長的環境，將夢想、理想實現。" >
+    <meta property="og:type" content="school" />
+    <meta property="og:url" content="http://www.dreamersday.tw" />
+    <meta property="og:image" content="https://www.dropbox.com/s/si3pl9i9a46tjh9/Dreamersdaypic.001.jpg" />
+    <meta property="og:site_name" content="dreamersday" />
+    <meta property="fb:admins" content="100003544640331" />
+    <meta name="google-site-verification" content="J-rU6yTuArS9_3GZfXYy4buBeA8Lg_SoC5yHL2QRpkk" />
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/all.js#xfbml=1&appId=219280174846988";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+    <%= yield %>
 
-</body>
+  </body>
 </html>
