@@ -3,6 +3,7 @@ Dreamersday::Application.routes.draw do
   resources :emails
 
   root to: 'main#index'
+  match 'registration' => 'registration#show'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -1,0 +1,221 @@
+// Place all the styles related to the registration controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  
+  background-image:url("https://dl.dropboxusercontent.com/u/21757113/dd_for_Qsearch.002.png");
+  font-family: 'Niconne', Arial, sans-serif;  
+}
+
+.bigtext{
+    width: 940px;
+    height: 150px;
+	margin-top: 20px;
+	border-bottom: dashed;
+	border-bottom-color: rgba(255,255,255,0.3);	
+	border-width: 1.5px;
+	margin-right:auto;
+	margin-left: auto;
+	}
+
+
+.bigtext h1{
+  
+font-size: 94px;
+color: white;
+text-align: center;
+text-shadow: 2px 2px black;
+}
+
+
+.dateplace{
+width: 940px;
+height: 280px;
+font-size: 44px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+border-bottom: dashed;
+border-bottom-color: rgba(255,255,255,0.3);	
+border-width: 2px;
+}
+
+.dateplace h2{
+
+font-family:'BebasNeueRegular', Arial; 
+font-size:44px;
+color: yellow;
+text-align: center;
+
+}
+
+.dateplace p{
+    color: white;
+	font-family: sans-serif,"Arial";
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.bigtitle{
+	width: 940px;
+margin-right: auto;
+margin-left: auto;
+border-bottom: dashed;
+border-bottom-color: rgba(255,255,255,0.3);	
+border-width: 1.5px;
+}
+
+
+.speakertitle{
+width: 940px;
+height: 80px;
+font-size: 44px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.speakertitle h2{
+font-family:'BebasNeueRegular', Arial; 
+font-size:100%;
+color:yellow;
+text-align: center;
+}
+
+
+.speakercontent{
+width: 940px;
+height: 240px;
+display: block;
+line-height: 1.2;
+margin-left: auto;
+margin-right: auto;
+color: white;
+}
+
+.avatar{
+width:165px;
+height: 165px;
+margin-left: 20px;
+float: left;
+}
+
+.speakername{
+width: 640px;
+height: 40px;
+font-family: Arial;
+display: block;
+margin-left: 22%;
+}
+
+.speakername h3{
+font-family: Arial;
+font-size: 2em;
+font-style: bold;
+margin-left: 8%;
+}
+
+.speakername small{
+font-size: 14px;
+color:#999; 
+}
+
+.speakerdescription{
+width:630px;
+height: 150px;
+font-family: Arial;
+font-style: bold;
+margin-left: 22%;
+}
+
+.speakerdescription p{
+
+font-size: 18px;
+color:white;
+margin-left: 8%;
+}
+
+
+.slideshare{
+width: 940px;
+height: 650px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border-bottom: dashed;
+border-bottom-color: rgba(255,255,255,0.3);	
+border-width: 1.5px;
+}
+
+.slidesharedetail{
+width:600px; 
+height:650px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+.slidesharename{
+width: 940px;
+height: 80px;
+font-size: 44px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.slidesharename h2{
+font-family:'BebasNeueRegular', Arial; 
+font-size:100%;
+color:yellow;
+text-align: center;
+}
+
+.googledoc{
+width: 940px;
+height: 650px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+border-bottom: dashed;
+border-bottom-color: rgba(255,255,255,0.3);	
+border-width: 1.5px;
+}
+
+.googledocname{
+
+width: 940px;
+height: 80px;
+font-size: 44px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.googledocname h2
+{
+font-family:'BebasNeueRegular', Arial; 
+font-size:100%;
+color:yellow;
+text-align: center;
+}
+
+.googledocframe{
+width:760px; 
+height:500px;
+margin-left: auto;
+margin-right: auto;
+}
+ 
