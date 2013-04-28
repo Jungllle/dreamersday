@@ -22,10 +22,29 @@ body{
 
 .bigtext h1{
   
-font-size: 94px;
+font-size: 70px;
 color: white;
 text-align: center;
 text-shadow: 2px 2px black;
+}
+
+.date{
+width: 940px;
+height: 80px;
+font-size: 44px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto; 
+
+
+}
+
+.date h2{
+font-family:'BebasNeueRegular', Arial; 
+font-size:44px;
+color: yellow;
+text-align: center;
 }
 
 
@@ -41,14 +60,7 @@ border-bottom-color: rgba(255,255,255,0.3);
 border-width: 2px;
 }
 
-.dateplace h2{
 
-font-family:'BebasNeueRegular', Arial; 
-font-size:44px;
-color: yellow;
-text-align: center;
-
-}
 
 .dateplace p{
     color: white;
@@ -63,7 +75,7 @@ text-align: center;
 
 
 .bigtitle{
-	width: 940px;
+width: 940px;
 margin-right: auto;
 margin-left: auto;
 border-bottom: dashed;
