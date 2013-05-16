@@ -9,8 +9,8 @@ body{
 }
 
 body a {
+color: gray;
 
-    color:gray;
 }
 
 .bigtext{
@@ -133,11 +133,13 @@ display: block;
 margin-left: 22%;
 }
 
-.speakername h3{
+.speakername h3 {
 font-family: Arial;
 font-size: 2em;
 font-style: bold;
 margin-left: 8%;
+color:white;
+
 }
 
 .speakername small{
